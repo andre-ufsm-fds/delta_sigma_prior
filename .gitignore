@@ -20,4 +20,6 @@ abstract.record*
 #ignorando as categorias
 *.Cat
 *.Cat%
+*.TopCat
+*.TopCat%
 
