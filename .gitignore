@@ -17,3 +17,7 @@ drcRunDir/*
 abstract.log*
 abstract.record*
 
+#ignorando as categorias
+*.Cat
+*.Cat%
+
