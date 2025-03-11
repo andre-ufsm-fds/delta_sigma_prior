@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+Sigma_Delta_do_Prior/Amplificador.Cat type="category"
+Sigma_Delta_do_Prior/Chaves.Cat type="category"
+Sigma_Delta_do_Prior/Gerador_de_Fase.Cat type="category"
+Sigma_Delta_do_Prior/Irefs.Cat type="category"
+Sigma_Delta_do_Prior/Vrefs.Cat type="category"
+Sigma_Delta_do_Prior/newCat.Cat type="category"
+Sigma_Delta_do_Prior/topo.Cat type="category"
