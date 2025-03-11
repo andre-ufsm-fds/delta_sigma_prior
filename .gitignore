@@ -11,7 +11,9 @@ panic*.log.*
 # Run directories for layout vs. schematic and design rule check
 lvsRunDir/*
 drcRunDir/*
+*/maestro/*
 
 # Abstract generation tool
 abstract.log*
 abstract.record*
+

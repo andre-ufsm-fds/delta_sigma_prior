@@ -1,0 +1,9 @@
+// VerilogA for aula_do_prior, modulador_va, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module Sigma_Delta;
+
+
+endmodule
