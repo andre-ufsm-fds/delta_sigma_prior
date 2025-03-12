@@ -1,0 +1,55 @@
+\definecolor{TitansRed}{HTML}{132F40}   % UM Logo Color
+
+\def\logo{{
+\centering
+\includegraphics[width=30mm]{figuras/fixos/CI-INOVADOR.png}\\
+\vspace{0.25cm}
+\includegraphics[width=30mm]{figuras/fixos/UnB.png}
+}}
+
+
+\newcommand\AlCentroPagina[1]{%
+\AddToShipoutPicture*{\AtPageCenter{%
+\makebox(70,-50){\transparent{0.15}\includegraphics[width=0.5\paperwidth]{#1}}}}}
+
+{\begingroup
+\AlCentroPagina{figuras/fixos/CI-INOVADOR.png}
+\parbox[b][0.95\textheight][t]{0.2\textwidth}{\raggedleft\logo}
+\hspace*{2ex}
+\textcolor{TitansRed}{\rule{2pt}{0.95\textheight}}
+\hspace*{2ex}
+\parbox[b][0.95\textheight][t]{0.7\textwidth}{
+\setlength{\parindent}{0pt}
+%%\fontfamily{pag}\selectfont
+\sffamily
+
+
+
+%%% EDITAR A CAPA %%%%
+
+%Para editar a capa basta acompanhar os dados indicados a baixo.
+
+{\LARGE\bfseries{{\textcolor{corciinovador}{Técnicas e Circuitos para a conversão A/D e D/A}}}}
+\\[0.5cm]
+
+{\Large\bfseries {{\textcolor{corciinovador}{Modulador Sigma-Delta}}}} 
+\\[0.8cm]
+
+{\large \bfseries{{Integrantes Do Grupo:}}} \\[0.2cm]
+{\large {André De Lima E Silva Mariano}} \\[0.2cm]
+{\large {Danilo Queiró De Freitas}} \\[0.2cm]
+{\large {Douglas Lustosa Da Silva}} \\[0.2cm]
+{\large {Eduardo Alves Barcelos}} \\[0.2cm]
+{\large {Emmanuel Kwabena Mensah Johnson}} \\[0.2cm]
+{\large {Guilherme Carvalho de Oliveira Martins}} \\[0.2cm]
+{\large {Pâmela Raquel Almeida Nogueira Campagnucci}} \\[9.5cm]
+
+{\large {Especialização em Microeletrônica}} \\[0.5cm]
+{\large {Trilha: Analógica AMS}} \\[0.5cm]
+{\large {Polo: Universidade de Brasília}} \\[0.5cm]
+\vspace{15pt}
+{\LARGE\bfseries {\today}}\\[\baselineskip]
+%{\footnotesize\textit {Desenvolvimento da Universidade de Brasília.}}
+}
+\thispagestyle{empty}
+\endgroup}

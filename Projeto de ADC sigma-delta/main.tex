@@ -1,0 +1,77 @@
+%%\input{fixos/pacotes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt, a4paper, oldfontcommands, openany]{article}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[document]{ragged2e}
+\RequirePackage{eso-pic}
+\RequirePackage{transparent}
+\RequirePackage{xcolor}
+\RequirePackage[pdftex]{graphicx}    % For pictures
+\RequirePackage{amssymb}             % At least, for black squares in bullet list
+\RequirePackage[hidelinks]{hyperref}             % For hyperreferences
+%\RequirePackage{stix2}
+%\usepackage[defaultsans]{lato}		 % Sans font to use
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}  % Define Helvetica (Arial similar)
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage{inputenc}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage[brazilian]{babel}
+%\usepackage[american]{circuitikz}
+\usepackage{tikz}
+%\usepackage[europeanresistors,americaninductors]{circuitikz}
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage[document]{ragged2e}
+\usepackage{tocbibind}
+\usepackage{gensymb}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage[siunitx, RPvoltages]{circuitikz}
+\usepackage{pdflscape}
+% \usepackage{tabularx}
+%%\usepackage{sectsty}
+\usepackage{titlesec}
+\titleformat{\section}{\color{corciinovador}\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\color{corciinovador}\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+
+\definecolor{corciinovador}{HTML}{5424EB}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{fixos/informacoes.tex}
+
+\begin{document}
+
+\input{editaveis/capa.tex}
+
+\newpage
+
+
+\justifying
+
+%\input{editaveis/abstract.tex}
+\input{editaveis/introducao.tex}
+\input{editaveis/metodologia.tex}
+\input{editaveis/resultados.tex}
+\input{editaveis/discu.tex}
+
+
+\bibliographystyle{ieeetr}
+\bibliography{ref}
+
+\end{document}

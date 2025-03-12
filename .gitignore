@@ -23,3 +23,22 @@ abstract.record*
 *.TopCat
 *.TopCat%
 
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.eps
+*.cb
+*.cb2
+.*.lb
+*.bbl
+*.blg
+*.fdb_latexmk
+*.synctex.gz
+
